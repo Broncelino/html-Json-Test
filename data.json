@@ -53,8 +53,8 @@
         "build id": "1",
         "hands_id": 1,
         "torso_id": 1,
-        "build name": "Bronze Armor",
-        "main hand id": 1
+        "buildName": "Bronze Armor",
+        "mainHandId": 1
     },
     "BatwingArmor":{
         "feet_id": 2,
@@ -65,8 +65,8 @@
         "build id": "2",
         "hands_id": 2,
         "torso_id": 2,
-        "build name": "Batwing Armor",
-        "main hand id": 2
+        "buildName": "Batwing Armor",
+        "mainHandId": 2
     },
     "StuddedLeather":{
         "feet_id": 3,
@@ -77,9 +77,8 @@
         "build id": "3",
         "hands_id": 3,
         "torso_id": 3,
-        "build name":
-        "Studded leather",
-        "main hand id": 3
+        "buildName": "Studded leather",
+        "mainHandId": 3
     },
     "VirtusArmor":{
         "feet_id": 4,
@@ -90,9 +89,8 @@
         "build id": "4",
         "hands_id": 4,
         "torso_id": 4,
-        "build name":
-        "Virtus Armor",
-        "main hand id": 4
+        "buildName": "Virtus Armor",
+        "mainHandId": 4
     }
 }
 
