@@ -17,7 +17,7 @@
         .then(function (data) {
             for(var i=0; i<data.length; i++) {
                 document.getElementById("data").innerHTML +=
-                data[i].buildName + "=>" + data[i].defence + " " + data[i].damage + "<br />";
+                data[i].bronze.defence + "=>" + data[i].VirtusArmor.ring_id + " " + data[i].damage + "<br />";
             }
         })
         .catch(function (err) {

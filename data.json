@@ -1,6 +1,101 @@
-[
-    {"damage": 48.0, "buildId": "1", "defence": 168.0, "accuracy": 150, "buildName": "Bronze Armor", "magicBonus": 15.8, "prayerBonus": 3, "rangedBonus": 15.8, "strengthBonus": 59.4},
-    {"damage": 556.0, "buildId": "2", "defence": 299.1, "accuracy": 908, "buildName": "Batwing Armor", "magicBonus": 58.0, "prayerBonus": 1, "rangedBonus": 26.5, "strengthBonus": 26.5},
-    {"damage": 192.0, "buildId": "3", "defence": 381.4, "accuracy": 316, "buildName": "Studded leather", "magicBonus": 26.5, "prayerBonus": 1, "rangedBonus": 52.8, "strengthBonus": 26.5},
-    {"damage": 950.4, "buildId": "4", "defence": 1314.9, "accuracy": 1924, "buildName": "Virtus Armor", "magicBonus": 185.1, "prayerBonus": 16, "rangedBonus": 32.7, "strengthBonus": 32.7}    
+[{
+    "bronze": {
+        "damage": 48.0,
+        "buildId": "1",
+        "defence": 168.0,
+        "accuracy": 150,
+        "buildName": "Bronze Armor",
+        "magicBonus": 15.8,
+        "prayerBonus": 3,
+        "rangedBonus": 15.8,
+        "strengthBonus": 59.4
+    },
+    "BatwingArmor": {
+        "damage": 556.0,
+        "buildId": "2",
+        "defence": 299.1,
+        "accuracy": 908,
+        "buildName": "Batwing Armor",
+        "magicBonus": 58.0,
+        "prayerBonus": 1,
+        "rangedBonus": 26.5,
+        "strengthBonus": 26.5
+    },
+    "StuddedLeather": {
+        "damage": 192.0,
+        "buildId": "3",
+        "defence": 381.4,
+        "accuracy": 316,
+        "buildName": "Studded leather",
+        "magicBonus": 26.5,
+        "prayerBonus": 1,
+        "rangedBonus": 52.8,
+        "strengthBonus": 26.5
+    },
+    "VirtusArmor": {
+        "damage": 950.4,
+        "buildId": "4",
+        "defence": 1314.9,
+        "accuracy": 1924,
+        "buildName": "Virtus Armor",
+        "magicBonus": 185.1,
+        "prayerBonus": 16,
+        "rangedBonus": 32.7,
+        "strengthBonus": 32.7
+    }
+},{
+    "bronze": {
+        "feet_id": 1,
+        "head_id": 1,
+        "legs_id": 1,
+        "neck_id": 1,
+        "ring_id": 1,
+        "build id": "1",
+        "hands_id": 1,
+        "torso_id": 1,
+        "build name": "Bronze Armor",
+        "main hand id": 1
+    },
+    "BatwingArmor":{
+        "feet_id": 2,
+        "head_id": 2,
+        "legs_id": 2,
+        "neck_id": 1,
+        "ring_id": 2,
+        "build id": "2",
+        "hands_id": 2,
+        "torso_id": 2,
+        "build name": "Batwing Armor",
+        "main hand id": 2
+    },
+    "StuddedLeather":{
+        "feet_id": 3,
+        "head_id": 3,
+        "legs_id": 3,
+        "neck_id": 1,
+        "ring_id": 2,
+        "build id": "3",
+        "hands_id": 3,
+        "torso_id": 3,
+        "build name":
+        "Studded leather",
+        "main hand id": 3
+    },
+    "VirtusArmor":{
+        "feet_id": 4,
+        "head_id": 4,
+        "legs_id": 4,
+        "neck_id": 2,
+        "ring_id": 3,
+        "build id": "4",
+        "hands_id": 4,
+        "torso_id": 4,
+        "build name":
+        "Virtus Armor",
+        "main hand id": 4
+    }
+}
+
+
+
 ]
