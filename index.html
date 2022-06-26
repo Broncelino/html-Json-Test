@@ -5,26 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type = "text/javascript" src="function.js"></script>
 </head>
 <body>
     <h2>data</h2>
     <p id="data"></p>
-    <script type="text/javascript">
-        fetch('./data.json')
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            for(var i=0; i<data.length; i++) {
-                document.getElementById("data").innerHTML +=
-                data[0].bronze.defence + " " + data[1].VirtusArmor.ring_id + " " + data[0].bronze.damage + "<br />";
-            }
-            document.getElementById("data").innerHTML +=
-            data[0].bronze.defence + " " + data[1].VirtusArmor.ring_id + " " + data[0].bronze.damage + "<br />";
-        })
-        .catch(function (err) {
-            console.log(err);
-        });
-    </script>
+    <form id="input" action="/action_page.php">
+        <label for="table">table:</label>
+        <input type="number" id="table" name="table"><br><br>
+        <label for="armor">armor:</label>
+        <input type="text" id="armor" name="armor"><br><br>
+      </form>
+    <input type = "button" onclick = "dataGet()" value = "Display">
+    <input type = "button" onclick = "dataGet2()" value = "Display">
 </body>
 </html>
