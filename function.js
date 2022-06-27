@@ -18,14 +18,15 @@ function dataGet() {
 
 
     function dataGet2() {
-        var x = document.getElementById("input");
+        var x = document.getElementById("table");
+        var y = document.getElementById("armor");
         fetch('./data.json')
         .then(function (response) {
             return response.json();
         })
         .then(function (data) {
             document.getElementById("data").innerHTML +=
-            data[x[0]].bronze.defence + " " + data[x[0]].bronze.health + " " + data[x[0]].bronze.magicBonus + "<br />";
+            "Defence:" + data[x.value][y.value].defence + " Health Bonus: " + data[x.value][y.value].health + " Magic Bonus: " + data[x.value][y.value].magicBonus + "<br />";
         })
         .catch(function (err) {
             console.log(err);
