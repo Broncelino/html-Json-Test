@@ -20,13 +20,15 @@ function dataGet() {
     function dataGet2() {
         var x = document.getElementById("table");
         var y = document.getElementById("armor");
+        var z = document.getElementById("stat");
         fetch('./data.json')
         .then(function (response) {
             return response.json();
         })
         .then(function (data) {
             document.getElementById("data").innerHTML +=
-            "Defence:" + data[x.value][y.value].defence + " Health Bonus: " + data[x.value][y.value].health + " Magic Bonus: " + data[x.value][y.value].magicBonus + "<br />";
+            data[x.value][y.value][z.value] + "<br />";
+            /*"Defence:" + data[x.value][y.value].defence + " Health Bonus: " + data[x.value][y.value].health + " Magic Bonus: " + data[x.value][y.value].magicBonus + "<br />";*/
         })
         .catch(function (err) {
             console.log(err);
